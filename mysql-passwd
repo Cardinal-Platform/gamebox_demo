@@ -1,0 +1,2 @@
+debconf mysql-server/root_password password DatabaseTestPassw0rd
+debconf mysql-server/root_password_again password DatabaseTestPassw0rd

@@ -1,0 +1,23 @@
+version: '3'
+services:
+  web1_team1:
+    container_name: "web1_team1"
+    image: "web1"
+    build: .
+    ports:
+      - "10000:80"
+      - "10010:22"
+  web1_team2:
+    container_name: "web1_team2"
+    image: "web1"
+    build: .
+    ports:
+      - "10001:80"
+      - "10011:22"
+  web1_team3:
+    container_name: "web1_team3"
+    image: "web1"
+    build: .
+    ports:
+      - "10002:80"
+      - "10012:22"
